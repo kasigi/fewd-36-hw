@@ -1,0 +1,29 @@
+
+
+.floatWrapper {
+    overflow:hidden;
+    display:block;
+    width: 100%;
+}
+
+.floatWrapper:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.noFloatColumn {
+    background: rgb(200,200,230);
+    width: 50%;
+    overflow:hidden;
+    float:left;
+    display:block;
+}
+
+.floatColumn {
+    background: rgb(200,220,200);
+    width: 50%;
+    float: left;
+    overflow:hidden;
+    display:block;
+}
