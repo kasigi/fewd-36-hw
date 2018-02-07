@@ -1,0 +1,48 @@
+
+
+div p {
+	background: rgb(200,200,175);
+}
+
+.headerStripe, .footerStripe {
+	width: 100%;
+	padding: 10px;
+	box-sizing:border-box;
+}
+
+.twoFerStripe {
+	width:100%;
+}
+
+.twoFerStripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.twoFerColumn {
+	width:50%;
+	float:left;
+	padding: 10px;
+		box-sizing:border-box;
+
+}
+
+.threeColStripe {
+	width:100%;
+}
+
+.threeColStripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.threeColColumn {
+	width: 33%;
+	float:left;
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+
